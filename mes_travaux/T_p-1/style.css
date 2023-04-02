@@ -1,0 +1,524 @@
+* {
+    padding: 0;
+    margin: 20px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* *************** balise generale************* */
+
+header {
+    background: rgb(253, 253, 234);
+    
+}
+
+.noir{
+    background: black;
+    color: whitesmoke;
+}
+
+.violet{
+    background-color: blueviolet;
+    color: white;
+}
+
+p{
+    font-weight: 100;
+    font-size: medium;
+    color: rgb(83, 83, 78);
+    /* line-height: 10px; */
+}
+
+.fleche, .turbo{
+    background: blueviolet;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    list-style: 5px;
+    text-align: center;
+    font-size: 1px;
+    text-align: center;
+}
+
+a{
+    cursor: pointer;
+}
+
+button{
+    padding: 10px;
+    border: none;
+}
+
+em{
+    color: rgb(175, 6, 164);
+}
+
+/* ********** fin ********** */
+
+/* *************** header **************** */
+
+.barreDesTache {
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.nav{
+    display: flex;
+    
+}
+
+.nav p a{
+    text-decoration: none;
+    color: purple;
+    /* margin: 1px; */
+    /* padding: 5px; */
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo p{
+    margin-right: 0;
+    
+}
+
+.contener{
+    display: flex;
+    align-items: center;
+
+}
+
+.profil{
+    display: flex;
+    align-items: center;
+}
+
+.profil img{
+    width: 40px;
+    border-radius: 50px;
+    max-height: 40px;
+    margin: -5px;
+    border-left: 2px solid white;
+}
+
+.realisation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+
+.tire{
+    background: black;
+    height: 2px;
+    width: 50px;
+    margin-right: 0;
+    padding: 0;
+}
+
+/* ********* fin ********** */
+
+/* *************** premiere section **************** */
+
+.carton{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -100px;
+}
+
+.carton .cadre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carton .cadre .legende{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+    padding-top: 5px;
+}
+
+.carton .cadre .legende div{
+    text-align: left;
+}
+
+.carton .cadre img{
+    width: 80%;
+    margin-bottom: 0;
+}
+
+.range{
+    display: flex;
+    align-items: center;
+}
+
+.range a{
+    text-decoration: none;
+    color: black;
+}
+
+.prem{
+    display: block;
+}
+
+.prem img{
+    width: 80px;
+    border: 1px solid rgba(224, 224, 224, 0.1);
+    border-radius: 2px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 224, 0.1);
+    background-color: inherit;
+    /* margin: 5px; */
+}
+
+/* *********** fin ********** */
+
+
+
+
+/* ************** dexieme  section *************** */
+.service{
+    background-color: rgb(253, 253, 234);
+}
+
+.services{
+    display: flex;
+    align-items: center;
+}
+
+.ligne{
+    display: flex;
+    align-items: center;
+}
+
+.ligne p{
+    margin-left: 2px;
+    text-align: left;
+}
+
+.vert{
+    color: white;
+    background-color: greenyellow;
+    width: 15px;
+    border-radius: 50px;
+    margin-right: 0;
+    height: 15px;
+    font-size: 10px;
+    text-align: center;
+}
+
+/* ************ fin ************* */
+
+
+/*************** troisieme section ******************/
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.portfolio button{
+    background-color: inherit;
+    border: 1px solid rgba(224, 224, 224, 0.5);
+    color: rgb(82, 82, 78);
+}
+
+.boutton{
+    display: flex;
+    align-items: center;
+}
+
+.portfolio .noir{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.legende{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+    padding-top: 2px;
+}
+
+.carte{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.carte img{
+    width: 80%;
+    margin-bottom: 0;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+}
+
+.cadre{
+    align-items: center;
+    text-align: center;
+}
+.legende div{
+    text-align: left;
+}
+/* ****************fin************* */
+
+
+/* *************** quatrieme section *************** */
+
+.articles{
+    background: rgb(253, 253, 234);
+}
+
+.article{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.direct{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.direct div{
+    display: flex;
+    align-items: center;
+
+}
+
+.flechet{
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    color: black;
+}
+
+
+.tete{
+    display: flex;
+    align-items: center;
+}
+
+.tete p{
+    width: 40px;
+    height: 20px;
+    border-radius: 50px;
+    background: rgb(253, 253, 234);
+    text-align: center;
+    color: rgb(200, 255, 200);
+    font-size: larger;
+    margin-right: 1px;
+}
+
+.bas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.smile{
+    width: 40px;
+    height: 30px;
+    border-radius: 60px;
+    background: rgb(253, 253, 200);
+    text-align: center;
+}
+
+.trait{
+    width: 400px;
+    height: 2px;
+    background: #ccc;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+article{
+    background: white;
+    width: 300px;
+    border-radius: 6px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+/* ********** fin ********* */
+
+/* *************** cinquieme section *************** */
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form a{
+    text-decoration: none;
+    color: purple;
+}
+
+input{
+    height: 30px;
+    width: 300px;
+    border: 1px solid rgba(224, 224, 224, 0.5);
+    margin-top: 10px;
+}
+input[name="details"]{
+    height: 100px;
+
+}
+
+/* ********** fin ********** */
+
+/* *************** footer *************** */
+
+footer{
+    background: yellow;
+    padding: 10px;
+}
+
+.reseau{
+    display: flex;
+    align-items: center;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    height: 80px;
+    padding: 0;
+    /* text-align: left; */
+}
+
+footer .barreDesTache{
+    justify-content: space-between;
+}
+footer a{
+    text-decoration: none;
+}
+footer h4{
+    color: black;
+}
+
+footer img{
+    width: 50px;
+    /* border-radius: 50px; */
+}
+/* ********** fin ********** */
+
+
+@media screen and (max-width: 600px)  {
+
+    *{
+        padding: 0;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+    body{
+        width: 100%;
+    }
+
+    header .nav {
+        display: none;
+
+    }
+    
+    img[alt="ma photo"]{
+        display: none;
+    }
+
+    .cadre img, .carton .cadre img{
+        width: 100%;
+    }
+
+    .realisation{
+        flex-wrap: wrap;
+    }
+
+    .carton{
+        display: block;
+        position: relative;
+        top: -70px;
+    }
+    .services{
+        display: block;
+    }
+    .boutton button{
+        margin: 3px;
+    }
+
+    .list{
+        display: block;
+    }
+    .article{
+        display: block;
+    }
+    .form{
+        display: block;
+    }
+    .reseau{
+        display: block;
+    }
+
+    footer .barreDesTache{
+        display: block;
+    }
+
+    footer .nav {
+        /* margin: 5px; */
+        flex-wrap: wrap;
+    }
+    .legende,.cadre .legende{
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1100px)  {
+
+    *{
+        padding: 0;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+    body{
+        width: 100%;
+    }
+
+    .realisation{
+        padding-bottom: 60px;
+    }
+
+    .cadre img, .carton .cadre img{
+        width: 100%;
+    }
+    
+    .reseau{
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .article{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .social{
+        justify-content: space-between;
+    }
+}
